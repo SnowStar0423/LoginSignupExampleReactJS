@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+
+
+.login-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login{
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.login-title{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid rgb(235, 235, 235) 1px;
+}
+
+.login-title h1{
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.login-data{
+    height: 35%;
+    padding-top: 1.5rem;
+}
+
+.login-username-container{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-username{
+    background-color:#1da1f2;
+    display: flex;
+    width: 70%;
+}
+
+.login-username input{
+    width: 100%;
+    text-decoration: none;
+    border: solid rgb(216, 216, 216) 1px;
+    outline: none;
+    font-size: 100%;
+    padding-left: .5rem;
+}
+
+.user-img{
+    padding: .3rem .5rem .3rem .5rem;
+}
+
+.login-password-container{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-password{
+    background-color:#1da1f2;
+    display: flex;
+    width: 70%;
+}
+
+.login-password input{
+    width: 100%;
+    text-decoration: none;
+    border: solid rgb(216, 216, 216) 1px;
+    outline: none;
+    font-size: 100%;
+    padding-left: .5rem;
+}
+
+.password-img{
+    padding: .3rem .5rem .3rem .5rem;
+}
+
+.login-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+}
+
+.login-button button{
+    padding: .5rem 3rem .5rem 3rem;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #1da1f2;
+}
+
+.login-button button:hover{
+    background-color: #4db0ee;
+    cursor: pointer;
+}
+
+.login-button span{
+    padding-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+
+.login-status{
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
